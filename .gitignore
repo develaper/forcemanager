@@ -16,6 +16,9 @@
 # Ignore postgres files
 /postgres/*
 
+#Ignore coverage
+coverage
+
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep

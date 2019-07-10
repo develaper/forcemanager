@@ -43,7 +43,7 @@ gem 'jquery-rails'
 gem 'react-rails'
 # Bootstrap 4 rubygem for Rails
 gem 'bootstrap', '~> 4.3.1'
-# Sprockets Rails integration 
+# Sprockets Rails integration
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 group :development, :test do
@@ -58,6 +58,8 @@ group :development, :test do
   gem 'shoulda-matchers'
   # A library for generating fake data such as names, addresses, and phone numbers.
   gem 'faker'
+  # Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
+  gem 'simplecov', require: false, group: :test
 end
 
 group :development do
