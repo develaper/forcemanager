@@ -82,7 +82,10 @@ updateUser(user){
 
 render(){
     return(
-      <div>
+      <div class="row" style={bodyStyle}>
+        <div class='col-md-12'>
+          <p>Team and Members</p>
+        </div>
         <NewUser  handleFormSubmit={this.handleFormSubmit}/>
         <AllUsers users={this.state.users} handleDelete={this.handleDelete} handleUpdate = {this.handleUpdate}/>
       </div>

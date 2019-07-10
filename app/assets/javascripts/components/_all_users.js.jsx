@@ -9,7 +9,7 @@ var users = props.users.map((user) => {
   })
 
 return(
-      <div>
+      <div class='col-md-12'>
         {users}
       </div>
     )

@@ -41,6 +41,10 @@ gem 'responders'
 gem 'jquery-rails'
 # Integrate React.js with Rails views and controllers, the asset pipeline, or webpacker.
 gem 'react-rails'
+# Bootstrap 4 rubygem for Rails
+gem 'bootstrap', '~> 4.3.1'
+# Sprockets Rails integration 
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -52,7 +56,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   # Simple one-liner tests for common Rails functionality
   gem 'shoulda-matchers'
-  # A library for generating fake data such as names, addresses, and phone numbers. 
+  # A library for generating fake data such as names, addresses, and phone numbers.
   gem 'faker'
 end
 
