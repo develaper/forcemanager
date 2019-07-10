@@ -13,6 +13,15 @@
 !/log/.keep
 !/tmp/.keep
 
+<<<<<<< Updated upstream
+=======
+# Ignore postgres files
+/postgres/*
+
+#Ignore coverage
+coverage
+
+>>>>>>> Stashed changes
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
